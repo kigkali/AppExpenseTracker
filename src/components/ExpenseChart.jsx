@@ -35,7 +35,7 @@ export function ExpenseChart() {
   return (
     <div className="bg-zinc-950">
       <VictoryPie
-        colorScale={["#e74c3c", "#2ecc71"]}
+        colorScale={["#922B21 ", "#196F3D"]}
         data={[
           { x: "Expenses", y: expensesPercentage },
           { x: "Incomes", y: incomesPercentage },
